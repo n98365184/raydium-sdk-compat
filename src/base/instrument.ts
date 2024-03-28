@@ -15,7 +15,7 @@ export function addComputeBudget(config: ComputeBudgetConfig) {
   }
 
   return {
-    address: {},
+    address: {} as Record<string, never>,
     innerTransaction: {
       instructions: ins,
       signers: [],
